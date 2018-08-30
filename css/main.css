@@ -7,7 +7,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: helvetica, arial, sans;
+    font-family: 'Open Sans', helvetica, arial, sans, sans-serif;
     min-height: 100vh;
 }
 
@@ -16,6 +16,11 @@ body {
     flex-grow: 1;
     padding-top: 10vh;
     width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', helvetica, sans, sans-serif;
+    font-weight: 100;
 }
 
 h1 {
@@ -184,8 +189,8 @@ h2 ~ p {
     background-color: #c7dbfc;
     background-size: cover;
     box-sizing: border-box;
-    height: 100vh;
-    padding-top: 10vh;
+    height: 90vh;
+    padding-top: 20vh;
 }
 
 .full-hero:after {
@@ -222,35 +227,36 @@ h2 ~ p {
 
 .hero-content .social-link {
     background-color: rgba(255, 255, 255, 0.8);
-    color: #557c83;
+    color: rgb(85, 124, 131);
 }
 
 .hero-content .social-link:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(85, 124, 131);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* SOCIAL STYLES */
 .social-link {
-    background: rgba(150, 150, 150, 0.5);
+    background-color: #bbb;
     border-radius: 99px;
     box-sizing: border-box;
     color: #fff;
     display: inline-block;
-    font-family: helvetica, arial, sans;
-    font-size: 1rem;
+    font-family: helvetica, arial, sans, sans-serif;
+    font-size: 1.7em;
     font-weight: bold;
-    height: 2.5em;
+    height: 1.5em;
     line-height: 1;
-    padding-top: 0.85em;
+    padding-top: 0.25em;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    width: 2.5em;
+    width: 1.5em;
 }
 
 .social-link:hover {
-    background: rgba(150, 150, 150, 1);
+    background-color: #000;
+    color: #fff;
 }
 
 .social-list {
