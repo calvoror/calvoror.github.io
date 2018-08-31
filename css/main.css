@@ -379,6 +379,7 @@ h2 ~ p {
 
 .gallery-photo img {
     width: 100%;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .gallery-info {
